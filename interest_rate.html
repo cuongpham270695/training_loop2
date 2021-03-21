@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính lãi ngân hàng</title>
+    <script src="interest_rate.js"></script>
+</head>
+<body>
+    <label for="borrow">Nhập số tiền khách vay:
+    <input type="number" id="borrow">triệu đồng
+    </label><br />
+    <label for="month">Nhập số tháng vay:
+    <input type="number" id="month">tháng</label><br />
+    <label for="rate">Nhập lãi suất vay:
+    <input type="number" id="rate">%</label>
+    <button type="button" onclick="needToPay()">Tính tiền</button>
+    <h4 id="pay"></h4>
+</body>
+</html>

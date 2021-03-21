@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In ra dãy fibonacci</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let num1=0;
+        let num2=1;
+        let count=parseInt(prompt("Nhập số phần tử của dãy fibonacci"));
+        for (i=0;i<count;i++)
+        {
+            sum=num1+num2;
+            num1=num2;
+            num2=sum;
+            document.write(sum+" ");
+        }
+    </script>
+</body>
+</html>
